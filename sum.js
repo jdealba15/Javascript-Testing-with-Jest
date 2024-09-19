@@ -1,6 +1,6 @@
 function fetchPromise() {
     return new Promise((resolve, reject) => {
-        setTimeOut(() => resolve('peanut butter'), 1000)
+        setTimeout(() => resolve('peanut butter'), 1000);
     });
 }
 
